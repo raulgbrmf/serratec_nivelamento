@@ -21,7 +21,7 @@ programa
 		leia(numero)
 		escreva("O fatorial de ", numero, " é ", fatorial(numero))
 
-		}
+	}
 }
 /* $$$ Portugol Studio $$$ 
  * 
