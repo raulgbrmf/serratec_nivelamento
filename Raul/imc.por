@@ -22,7 +22,7 @@ programa {
 			escreva("Peso ideal!! =D")
 		}
 		senao se(valor_imc > 30){
-			escreva("Acima do peso! Cuidado =o :  ", valor_imc)
+			escreva("Acima do peso!!! Cuidado =o :  ", valor_imc)
 		}
 		senao {
 			escreva("Seu imc vale: ", valor_imc)
@@ -35,7 +35,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 512; 
+ * @POSICAO-CURSOR = 514; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
