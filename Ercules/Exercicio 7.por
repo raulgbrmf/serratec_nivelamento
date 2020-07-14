@@ -1,18 +1,19 @@
 programa
 {
-	
+	funcao leiaNome(cadeia nome)
+	{
+		escreva("Bom dia ", nome, "!\n")
+	}
 	funcao inicio()
 	{
-		cadeia nome , sobrenome
+		cadeia nm
 
-		escreva("Informe o nome: ")
-		leia(nome)
-
-		escreva("Informe o sobrenome: ")
-		leia(sobrenome)
-
-		escreva("O nome completo é: ", nome + " " + sobrenome)
+		escreva("Digite seu nome: ")
+		leia(nm)
 		
+		limpa()
+		
+		leiaNome(nm)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -20,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 58; 
+ * @POSICAO-CURSOR = 172; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
