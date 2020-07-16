@@ -1,14 +1,18 @@
 programa
 {
+		inteiro matriz[3][3], 
+		inteiro x = 0 
+		inteiro soma = 0
 	
 	funcao inicio()
 	{
-		inteiro matriz[3][3], 
-		inteiro x = 0 
-		inteiro y = 0
-		inteiro soma = 0
+		valorMatriz()
+		somaDiagonal()
 		
-		//Alimentando Matriz nos eixos X -> e Y /\
+	}
+	//Alimentando Matriz nos eixos X -> e Y /\
+	funcao valorMatriz() {
+		inteiro y = 0
 		para(x = 0; x < 3; x++){
 			para(y = 0; y < 3; y++){
 				escreva("Digite o valor para linha "
@@ -16,7 +20,10 @@ programa
 				leia(matriz[x][y])
 			}
 		}
-		//mostrando e somando diagonal principal
+	}
+		somaDiagonal()
+	//mostrando e somando diagonal principal
+	funcao somaDiagonal(){
 		para(x =0; x < 3; x++){
 			escreva("\nValor da Diagonal Principal - " +  matriz[x][x])
 			soma = soma + matriz[x][x]
@@ -29,7 +36,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 112; 
+ * @POSICAO-CURSOR = 126; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
