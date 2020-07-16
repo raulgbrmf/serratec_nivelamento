@@ -15,8 +15,15 @@ programa
 		}
 
 		
-		escreva("Os elementos no vetor são : ", lista[0]," ",lista[1]," ",lista [2]," ", lista[3]," ",lista[4])
+		escreva("Os elementos no vetor são : ")
+		para (inteiro posicao = 0; posicao <5; posicao++)
+		{
+			escreva(lista[posicao], " ")
+					
+		}
 		
+		
+
 		
 	}
 }
@@ -25,9 +32,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 268; 
+ * @POSICAO-CURSOR = 355; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {lista, 7, 10, 5};
+ * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

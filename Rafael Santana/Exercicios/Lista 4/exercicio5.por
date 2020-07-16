@@ -26,10 +26,7 @@ programa
 		
 		escreva("O número de dígitos do número é ", contador_de_digitos(numero),"\n")	
 
-		escreva("Digite um numero: ")
-		leia(numero2)
 		
-		escreva("O número de dígitos do número é ", contador_de_digitos(numero2))
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -37,7 +34,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 447; 
+ * @POSICAO-CURSOR = 452; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {numero, 3, 44, 6}-{contador, 5, 10, 8};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
