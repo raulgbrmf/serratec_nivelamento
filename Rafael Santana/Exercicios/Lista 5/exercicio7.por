@@ -1,8 +1,10 @@
 programa
 {
-	const inteiro TAMANHO = 3
+	inclua biblioteca Util
+	const inteiro TAMANHO = 2
 
 	funcao multiplicaMatriz(inteiro m1[][], inteiro m2[][]){
+	
 		para (inteiro i = 0; i < TAMANHO; i++){
 			para (inteiro j = 0; j < TAMANHO; j++){
 				escreva("[ ", m1[i][j] * m2[i][j], "]")
@@ -12,6 +14,7 @@ programa
 	}
 
 	funcao imprime_matriz(inteiro matriz[][]){
+		
 		para (inteiro i = 0; i < TAMANHO; i++){
 			para (inteiro j = 0; j < TAMANHO; j++){
 				escreva("[", matriz[i][j], "]")
@@ -27,8 +30,7 @@ programa
 
 		para (inteiro i = 0; i < TAMANHO; i++){
 			para (inteiro j =0; j < TAMANHO; j++){
-				escreva("Digite um numero: ")
-				leia(m1[i][j])
+				m1[i][j] = Util.sorteia(10, 40)
 			}
 		}
 
@@ -37,11 +39,11 @@ programa
 
 		para (inteiro i = 0; i < TAMANHO; i++){
 			para (inteiro j =0; j < TAMANHO; j++){
-				escreva("Digite um numero: ")
-				leia(m2[i][j])
+				
+				m2[i][j]=Util.sorteia(10, 40)
 			}
 		}
-		escreva("Segunda matriz: \n ")
+		escreva("Segunda matriz: \n")
 		imprime_matriz(m2)
 		
 		escreva("Matrizes multiplicadas: \n")
@@ -53,7 +55,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1008; 
+ * @POSICAO-CURSOR = 122; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

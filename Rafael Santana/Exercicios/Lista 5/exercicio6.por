@@ -8,7 +8,7 @@ programa
 		
 		para(inteiro i = 0; i < TAMANHO; i++){
 			para (inteiro j = 0; j < TAMANHO; j++){
-				escreva("|", matriz[i][j], "|2")
+				escreva("|", matriz[i][j], "|")
 				se (i == j){
 					soma = soma + matriz[i][j]					
 				}			
@@ -36,7 +36,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 320; 
+ * @POSICAO-CURSOR = 224; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

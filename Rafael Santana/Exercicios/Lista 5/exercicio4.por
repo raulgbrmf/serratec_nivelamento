@@ -2,8 +2,10 @@
 Dica : Pesquisar por Bubble Sort*/
 
 programa
-{
-	const inteiro TAMANHO = 4
+{	
+	inclua biblioteca Util
+	const inteiro TAMANHO = 20
+
 	
 	funcao ordenar_vetor(inteiro vetor[]){  
   		inteiro auxiliar = 0
@@ -11,7 +13,7 @@ programa
  	 	para(inteiro i=0; i <TAMANHO; i++){
 			para(inteiro j = i+1; j <TAMANHO; j++){
 				se (vetor[i] < vetor[j]){
-				    
+		
 				    auxiliar = vetor[i]
                         vetor[i] = vetor[j]
                         vetor[j] = auxiliar	 	
@@ -29,14 +31,17 @@ programa
 		inteiro vetor[TAMANHO]
 
 		para(inteiro i=0; i <TAMANHO; i++){
-			
-			escreva("Digite um numero: ")
-			leia(numero)
-			vetor[i] = numero
-			
+			vetor[i] = Util.sorteia(1,99)
 		}
+		escreva("Vetor original: \n")
+		para(inteiro i=0; i <TAMANHO; i++){
+			escreva(vetor[i]," ")
+		}
+		
+		escreva("\nVetor ordernado: \n")
+		ordenar_vetor(vetor)
 
-		 ordenar_vetor(vetor)
+		
 
 	}
 }
@@ -45,7 +50,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 330; 
+ * @POSICAO-CURSOR = 275; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
