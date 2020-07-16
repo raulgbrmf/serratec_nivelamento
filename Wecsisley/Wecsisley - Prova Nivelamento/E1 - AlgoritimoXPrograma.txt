@@ -1,0 +1,20 @@
+Algoritimo é uma sequencia de passos que deve ser seguida
+para elaborar e resolver problemas. 
+
+Um programa é a junção de algorítimos ordenados e executados
+para resolver um ou mais problemas específicos. 
+
+O exemplo mais classíco seria a receita de bolo. 
+
+O algorítimo seria a receita própriamente dita e o bolo o resultado
+da receita ou seja, o programa. Mas podemos usar tudo o que fazemos
+no nosso dia dia, como uma compra no super mercado, ou a ligação de uma lâmpada.
+
+Se o algorítimo não for seguido ou interpretado da maneira correta, pode e deve afetar o resultado do programa
+como no exemplo que vou dar abaixo: 
+
+ " A esposa de um programador pede para ele ir ao mercado e comprar algumas coisas, então ela diz: 
+   -Amor, vai ao mercado e traga 6 ovos se tiver leite traga 2. 
+   Então o marido volta do mercado com 2 ovos" 
+
+Esse é o exemplo de um algorítimo mal interpretado que não resolveu o problema da esposa e talvez tenha terminado com o casamento.
