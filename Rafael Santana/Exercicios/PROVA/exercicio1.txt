@@ -1,0 +1,45 @@
+1 - Qual é a diferença entre algoritmo e programa de computador? Justifique sua
+resposta e apresente exemplos de algoritmos e programas.
+
+
+Um algoritmo é uma sequência de passos para realizar uma tarefa ou resolver um problema
+o mesmo se torna um programa depois de convertido para uma linguagem de programação. 
+
+
+exemplo de algoritimo 
+
+Passo 1— Pegar uma lâmpada nova;
+Passo 2 — Pegar a escada;
+Passo 3 — Posicionar a escada embaixo da lâmpada queimada;
+Passo 4 — Subir na escada com a lâmpada nova;
+Passo 5 — Retirar a lâmpada queimada;
+Passo 6 — Colocar a lâmpada nova;
+Passo 7 — Descer da escada;
+Passo 8 — Ligar o interruptor;
+Passo 9 — Guardar a escada;
+Passo 10 — Jogar a lâmpada velha no lixo.
+
+
+
+exemplo de um programa
+
+programa
+{
+	
+	funcao inicio()
+	{
+
+		real horas_trabalhadas,horas_extras,salario
+		
+		escreva("Digite o número de horas trabalhadas no ano: ")
+		leia(horas_trabalhadas)
+
+		escreva("Digite o número de horas extras trabalhadas no ano: ")
+		leia(horas_extras)
+
+		salario = horas_trabalhadas *10 + horas_extras *15
+
+		
+		escreva("Seu salário anual é de : R$ ", salario)
+	}
+}
